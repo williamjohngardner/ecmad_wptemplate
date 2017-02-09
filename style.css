@@ -1,0 +1,830 @@
+/*
+Theme Name: Madalon
+Theme URI:
+Author: Bill Gardner
+Author URI: http://www.williamjgardner.com
+Description: Wordpress Theme for madalonlaw.com
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+h1 h2 h3 h4 h5 h6 p a {
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #777777;
+}
+
+header {
+  background-image: url('/images/header_background_red_rev_2.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 197px;
+}
+
+.header-left {
+  float: left;
+  padding: 20px 0 0 40px;
+}
+
+.site-logo {
+  width: 277px;
+  height: 150px;
+  background-image: url('/images/Madalon_Logo_270px_rev_1.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#primaryphone {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.75em;
+  font-weight: 700;
+  margin: 50px 0 0 0;
+  color: #333333;
+}
+
+#phonematters {
+  color: #a21c26
+}
+
+.header-right {
+  float: right;
+  padding: 40px 100px 0 0;
+  text-align: center;
+}
+
+.header-right h4 {
+  font-size: 3em;
+  letter-spacing: .05em;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: Oswald, sans-serif;
+}
+
+.header-right h5 {
+  font-size: 1.75em;
+  font-weight: 500;
+  color: #777777;
+  font-family: Oswald, sans-serif;
+}
+
+.header-right h6 {
+  font-size: 1.25em;
+  color: #ffffff;
+}
+
+nav {
+  background: #333333;
+}
+
+.primary_nav {
+  list-style-type: none;
+  text-align: center;
+  background: #333333;
+  margin: 0px;
+}
+
+.primary_nav li {
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 15px 25px;
+}
+
+.primary_nav li:hover {
+  background: #a21c26;
+}
+
+.section_1 {
+  background-color: #a21c26;
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Hero_Image_rev_1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 531px;
+}
+
+#hero_text {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 70px;
+  padding-right: 50px;
+}
+
+#hero_text p {
+  font-family: serif;
+  font-size: 1.25em;
+}
+
+#hero_text i {
+  display: block;
+  font-size: 2em;
+  margin: 0;
+}
+
+#hero {
+  font-size: 100px;
+  font-weight: 900;
+}
+
+#hero strong{
+  margin: 0;
+  padding: 0;
+}
+
+/* -------- HERO SLIDER/TESTIMONIALS -------- */
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  width: 425px;
+  height: 125px;
+  background: none;
+  text-align: center;
+}
+
+/* ---------------------------------------------- */
+
+.section_2{
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Results_Background_rev_1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 500px;
+}
+
+.section_title {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 35px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  font-weight: 500;
+  letter-spacing: .10em;
+}
+
+.section_cta {
+  font-size: 1.75em;
+  margin-top: 35px;
+  text-align: center;
+}
+
+#verdict_left {
+
+  margin: 30px 0 0 100px;
+  width: 600px;
+  height: 250px;
+  background-color: #d1d3d4;
+  box-shadow: 5px 5px 10px #333333;
+}
+
+#verdict_left > div {
+  position: absolute;
+  margin-left: 50px;
+}
+
+#verdict_right {
+  margin: 30px 100px 0 0;
+  width: 600px;
+  height: 250px;
+  background-color: #d1d3d4;
+  box-shadow: 5px 5px 10px #333333;
+}
+
+#verdict_right > div {
+  position: absolute;
+  margin-left: 50px;
+}
+
+#verdict_text {
+  text-align: center;
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+  font-weight: 700px;
+  padding-top: 40px;
+  line-height: 1.25;
+}
+
+#verdict_text strong {
+  font-size: 2.5em;
+}
+
+.section_3 {
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/JoeMadalon_Background_rev_1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 500px;
+}
+
+#section3_text {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 2%;
+  color: #ffffff;
+}
+
+#section3_text h3 {
+  font-weight: 400;
+  font-size: 3em;
+}
+
+#section3_text h5 {
+  font-weight: 300;
+  letter-spacing: .05em;
+  font-size: 1.75em;
+}
+
+#section3_text p {
+  font-weight: 100;
+  font-size: 1.25em;
+  text-align: justify;
+  margin-top: 30px;
+}
+
+#section3_cta {
+  text-align: left;
+}
+
+.section_4 {
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/LegalTeam_Background_rev_1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 500px;
+}
+
+/* START OF TABS CSS*/
+
+.law_firm {
+  padding-top: 100px;
+}
+
+.section {
+  display: none;
+  padding: 20px 0 0;
+}
+
+.law_firm input {
+  display: none;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
+
+.name {
+  color: #a21c26;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  background-color: none;
+  padding: 10px 15px;
+  margin: auto;
+  width: 35%;
+  border-radius: 5px;
+}
+
+img {
+  /*margin-left: 7%;
+  margin-right: auto;*/
+  margin-bottom: 25px;
+}
+
+
+
+.cirimage {
+  width: 175px;
+  height: 175px;
+}
+
+.cirimage:hover {
+  transform: scale(1.25);
+  transform-origin: center;
+}
+
+/* END OF TABS CSS */
+
+.section_5 {
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 8px 0 8px 0;
+  border-color: #a21c23;
+
+  height: auto;
+}
+
+#sprite {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.section_6 {
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Blog_Background_rev_1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 700px;
+}
+
+.blog_post {
+  display: inline-block;
+  margin: 20px 3px;
+  width: 275px;
+  height: 442px;
+  background-color: #ffffff;
+  border: 1px #ffffff solid;
+}
+
+.blog_post img {
+  width: 273px;
+  height: 185px;
+}
+
+.blog_post h4 {
+  margin: 0 10px 0 10px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.blog_post h6 {
+  margin-left: 10px;
+  height: 20px;
+}
+
+#read_more {
+  font-size: 1.1em;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  width: 35%;
+  background-color: #a21c26;
+  border-radius: 3px;
+  padding: 5px 15px;
+  margin-left: 10px;
+
+}
+
+.section_7 {
+  background-color: gray;
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/UnderstandingLaw_Background_rev_1.jpg');
+  overflow: hidden;
+}
+
+#section7_sectiontitle {
+  color: #333333;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.section_7 img {
+  width: 275px;
+  height: 185px;
+}
+
+.section_8 {
+  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/LegalTeam_Background_rev_1.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  height: auto;
+}
+
+#vid_frame {
+  margin: 0;
+  padding: 0;
+}
+
+#section8_sectiontitle {
+  color: #333333;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.section_8 hr {
+  background-color: #ffffff;
+  border: none;
+  height: 1px;
+  width: 90%;
+  margin: 5px 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+#section8_button {
+  color: #ffffff;
+  font-size: 1.25em;
+  font-weight: 500;
+  background-color: #a21c26;
+  width: 193px;
+  height: 44px;
+  border-radius: 5px;
+  padding: 12px 28px;
+  box-shadow: 5px 5px 10px #333333;
+}
+
+#main_video {
+  float: right;
+  margin-right: 0px;
+}
+
+#video_title_box {
+  width: 560px;
+  height: 315px;
+  background-color: #999999;
+}
+
+#video_title_box h2 {
+  color: #a21c26;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+  font-weight: 250;
+  margin-top: 45px;
+  margin-left: 20px;
+}
+
+#video_title_box h3 {
+  font-family: serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+#video_title_box h6 {
+  margin-left: 20px;
+}
+
+#video_title_box a:hover {
+  color: #ffffff;
+}
+
+.video_container {
+  height: auto;
+  margin-right: 5%;
+	margin-left: 5%;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+.video_stretch {
+	width: 100%;
+	display: inline-block;
+}
+
+.video_container a {
+  color: #333333;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.video_container a:hover {
+  color: #777777;
+}
+
+.video_container ul {
+  list-style-type: none;
+}
+
+.video_container li {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 6px #a21c26 solid;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 5px;
+  height: 75px;
+  width: 350px;
+}
+
+.video_container li:hover {
+  background-color: #a21c26;
+}
+
+.section_9 {
+  background-image: url(/Users/productnonproduct/EverConvert/Madalon/HTML/images/PracticeAreas_Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+button {
+  background-color: #a21c26;
+  width: 350px;
+  height: 62px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 0;
+  color: #ffffff;
+  font-size: 1.2em;
+  display: block;
+  list-style-type: none;
+  box-shadow: 5px 5px 10px #333333;
+  text-align: center;
+  padding-left: 15px;
+}
+
+#button_list_1 {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+#button_list_2 {
+  list-style-type: none;
+  float: center;
+}
+
+#button_list_3 {
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+.section_10 {
+  background-color: #a21c26;
+  height: auto;
+}
+
+.contact_us_form input, textarea {
+  border-radius: 5px;
+}
+
+.contact_form_left {
+  float: left;
+  width: 48%;
+}
+
+.contact_form_left input {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.contact_form_right {
+  float: right;
+  width: 48%;
+}
+
+.contact_us_form textarea {
+  width: 100%;
+}
+
+#contact_submit {
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #333333;
+  border: none;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+#section11_sectiontitle {
+  color: #333333;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+/* SITEWIDE FOOTER CSS STARTS HERE */
+
+.section_11 {
+	background-image: url(/Users/productnonproduct/EverConvert/Madalon/HTML/images/Locations_Background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+	overflow: hidden;
+	height: auto;
+}
+
+.location_container {
+	height: auto;
+  margin-right: 5%;
+	margin-left: 5%;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+.location_container h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	font-wieght: 700;
+	color: #333333;
+}
+
+.location_container h4 {
+  font-size: 1.25em;
+	font-family: 'Oswald', sans-serif;
+	color: #333333;
+}
+
+.map_title {
+	background: #ffffff;
+	padding: 10px;
+}
+
+.map1, .map2, .map3 {
+	width: 350px;
+	vertical-align: top;
+  display: inline-block;
+}
+
+.stretch {
+	width: 100%;
+	display: inline-block;
+}
+
+.loc_contact{
+	background-color: #ffffff;
+	box-shadow: 3px 3px 5px #333333;
+	display: inline-block;
+	width: 100%;
+	height: 125px;
+}
+
+.loc_contact h3{
+	font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+	margin: 10px;
+	width: 65%;
+	float: left;
+}
+
+#googplus {
+	float: right;
+	margin: 10px;
+}
+
+.overlay {
+   background:transparent;
+   position:relative;
+   width:350px;
+   height:400px; /* your iframe height */
+   top:400px;  /* your iframe height */
+   margin-top:-400px;  /* your iframe height */
+}
+
+/* SITEWIDE FOOTER CSS ENDS HERE */
+
+.section_12 {
+  background-color: #ffffff;
+  height: auto;
+  border-top: 10px solid #a21c26;
+  border-bottom: 10px solid #a21c26;
+}
+
+.section_12 img {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.section_12 ul {
+	vertical-align: middle;
+	margin-top: 7%;
+	float: right;
+}
+
+.section_12 li {
+	color: #a21c26;
+	font-weight: 700;
+	font-size: 1.25em;
+	display: inline-block;
+	margin: 0 15px;
+}
+
+@media screen and (max-width: 1340px) {
+
+  .section_12 img {
+		display: block;
+		margin-top: 40px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 0;
+	}
+
+	.section_12 ul {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 20px;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.section_12 ul {
+		text-align: center;
+		}
+}
+
+.section_13 {
+  background-color: #999999;
+	height: auto;
+}
+
+.section_13 p {
+	width: 45%;
+	display: inline;
+	float: right;
+}
+
+.footerlocalities {
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 1340px) {
+	.footerlocalities {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+
+	.section_13 p {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		width: 100%;
+		text-align: justify;
+	}
+
+	.location_container {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.map1, .map2, .map3 {
+		width: 350px;
+		vertical-align: top;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+footer {
+  background-color: #000000;
+  height: 75px;
+}
+
+footer ul {
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer li {
+  color: #ffffff;
+  display: inline-block;
+}
