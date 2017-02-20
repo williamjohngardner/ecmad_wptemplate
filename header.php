@@ -8,8 +8,9 @@
 
   </head>
 
-  <body>
+  <body <?php body_class(); ?>>
     <header>
+
       <div class="container-fluid">
         <div class="row">
             <!--Site Image/Logo Area-->
@@ -39,3 +40,16 @@
         </div>
       </div>
     </header>
+    <nav class="primary_nav">
+      <?php
+
+       $defaults = array(
+         'container'      => false,
+         'theme_location' => 'primary_menu',
+         'menu_class'     => 'no-bullet'
+       );
+
+       wp_nav_menu( $defaults );
+
+       ?>
+    </nav>

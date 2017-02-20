@@ -30,7 +30,7 @@ a:hover {
 }
 
 header {
-  background-image: url('/images/header_background_red_rev_2.png');
+  background-image: url('images/header_background_red_rev_2.png');
   background-repeat: no-repeat;
   background-position: right;
   height: 197px;
@@ -44,7 +44,7 @@ header {
 .site-logo {
   width: 277px;
   height: 150px;
-  background-image: url('/images/Madalon_Logo_270px_rev_1.png');
+  background-image: url('images/Madalon_Logo_270px_rev_1.png');
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -91,6 +91,10 @@ nav {
   background: #333333;
 }
 
+nav ul {
+  margin-bottom: 0;
+}
+
 .primary_nav {
   list-style-type: none;
   text-align: center;
@@ -113,10 +117,10 @@ nav {
 }
 
 .section_1 {
-  background-color: #a21c26;
-  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Hero_Image_rev_1.jpg');
+  background-image: url('images/Hero_Image_rev_1.jpg');
   background-repeat: no-repeat;
   background-position: top;
+  background-color: #a21c26;
   height: 531px;
 }
 
@@ -177,7 +181,7 @@ nav {
 /* ---------------------------------------------- */
 
 .section_2{
-  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Results_Background_rev_1.jpg');
+  background-image: url('images/Results_Background_rev_1.jpg');
   background-repeat: no-repeat;
   background-position: top;
   height: 500px;
@@ -242,7 +246,7 @@ nav {
 }
 
 .section_3 {
-  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/JoeMadalon_Background_rev_1.jpg');
+  background-image: url('images/JoeMadalon_Background_rev_1.jpg');
   background-repeat: no-repeat;
   background-position: top;
   height: 500px;
