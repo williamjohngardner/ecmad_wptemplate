@@ -281,7 +281,7 @@ nav ul {
 }
 
 .section_4 {
-  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/LegalTeam_Background_rev_1.jpg');
+  background-image: url('images/LegalTeam_Background_rev_1.jpg');
   background-repeat: no-repeat;
   background-position: top;
   height: 500px;
@@ -373,14 +373,29 @@ img {
 }
 
 .section_6 {
-  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/Blog_Background_rev_1.jpg');
+  background-image: url('images/Blog_Background_rev_1.jpg');
   background-repeat: no-repeat;
   background-position: top;
   height: 700px;
 }
 
+.blog-wrapper {
+  height: auto;
+  margin-right: 5%;
+	margin-left: 5%;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+}
+
+.blog-stretch {
+  width: 100%;
+	display: inline-block;
+}
+
 .blog_post {
   display: inline-block;
+  vertical-align: top;
   margin: 20px 3px;
   width: 275px;
   height: 442px;
@@ -395,8 +410,12 @@ img {
 
 .blog_post h4 {
   margin: 0 10px 0 10px;
-  height: 150px;
   overflow: hidden;
+}
+
+.blog_post p {
+  margin: 20px 10px;
+  vertical-align: top;
 }
 
 .blog_post h6 {
@@ -406,7 +425,7 @@ img {
 
 #read_more {
   font-size: 1.1em;
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
   width: 35%;
   background-color: #a21c26;
@@ -418,7 +437,7 @@ img {
 
 .section_7 {
   background-color: gray;
-  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/UnderstandingLaw_Background_rev_1.jpg');
+  background-image: url('images/UnderstandingLaw_Background_rev_1.jpg');
   overflow: hidden;
 }
 
@@ -435,7 +454,7 @@ img {
 }
 
 .section_8 {
-  background-image: url('/Users/productnonproduct/EverConvert/Madalon/HTML/images/LegalTeam_Background_rev_1.jpg');
+  background-image: url('images/LegalTeam_Background_rev_1.jpg');
   background-repeat: no-repeat;
   background-position: top;
   height: auto;
@@ -555,7 +574,7 @@ img {
 }
 
 .section_9 {
-  background-image: url(/Users/productnonproduct/EverConvert/Madalon/HTML/images/PracticeAreas_Background.jpg);
+  background-image: url('images/PracticeAreas_Background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
@@ -642,7 +661,7 @@ button {
 /* SITEWIDE FOOTER CSS STARTS HERE */
 
 .section_11 {
-	background-image: url(/Users/productnonproduct/EverConvert/Madalon/HTML/images/Locations_Background.jpg);
+	background-image: url(images/Locations_Background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 	overflow: hidden;

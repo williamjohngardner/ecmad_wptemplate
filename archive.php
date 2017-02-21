@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+  <div class="leader">
+    <h1><?php wp_title(''); ?>Blog Posts</h1>
+  </div>
+
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
     <div class="container">

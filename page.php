@@ -6,14 +6,16 @@
       <div class="row">
         <h1><a style="color:#333333;" href=" <?php the_permalink(); ?> "><?php the_title(); ?></a></h1>
           <?php if( get_the_post_thumbnail() ) : ?>
-            <?php the_post_thumbnail('medium'); ?>
+            <?php the_post_thumbnail(); ?>
           <?php endif; ?>
-        <p><?php the_excerpt(); ?></p>
+        <p><?php the_content(); ?></p>
       </div>
     </div>
 
   <?php endwhile; else : ?>
 	   <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
   <?php endif; ?>
+
+  <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
