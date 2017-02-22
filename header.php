@@ -45,7 +45,7 @@
 
        $defaults = array(
          'container'      => false,
-         'theme_location' => 'primary_menu',
+         'theme_location' => 'primary_nav',
          'menu_class'     => 'no-bullet'
        );
 

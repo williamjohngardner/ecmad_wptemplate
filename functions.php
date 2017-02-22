@@ -7,7 +7,8 @@ function register_theme_menus() {
 
   register_nav_menus(
     array(
-      'primary_nav' => __( 'Primary Menu' )
+      'primary_nav' => __( 'Primary Menu' ),
+      'footer_nav'  => __( 'Footer Menu' )
     )
   );
 }

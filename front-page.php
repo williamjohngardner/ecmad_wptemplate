@@ -1,5 +1,7 @@
 <?php define( 'WP_USE_THEMES', false ); get_header(); ?>
 
+<!-- SECTION 1 - HERO SECTION -->
+
 <section class="section_1">
   <div class="row">
     <div class="col-md-5"></div>
@@ -45,6 +47,9 @@
     <div class="col-md-1"></div>
   </div>
 </section>
+
+<!-- SECTION 2 - VERDICTS AND RESULTS SECTION -->
+
 <section class="section_2">
   <div class="row">
     <div class="col-md-12">
@@ -95,6 +100,9 @@
     </div>
   </div>
 </section>
+
+<!-- SECTION 3 - MEET THE ATTORNEY SECTION -->
+
 <section class="section_3">
   <div class="row">
     <div class="col-md-5"></div>
@@ -107,23 +115,16 @@
     <div class="col-md-1"></div>
   </div>
 </section>
-<section class="section_3">
-  <div class="row">
-    <div class="col-md-5"></div>
-    <div class="col-md-6" id="section3_text">
-      <h3>HEAD ATTORNEY <br><b>JOSEPH MADALON</b></h3>
-      <h5>WE TREAT OUR CASES AS IF WE WE&#39;RE FIGHTING FOR OUR OWN</h5>
-      <p>It does not matter if you are speaking to our litigation department, paralegals or managing attorney; you will know that the Madalon team have your best interest in mind and the focus is not on how many cases we can get in the door, but on handling each case with the care and attention needed to ensure our clients will get the best possible outcome.</p>
-      <a href="#"><h4 class="section_cta" id="section3_cta">MEET JOSEPH MADALON</h4></a>
-    </div>
-    <div class="col-md-1"></div>
-  </div>
-</section>
+
+<!-- SECTION 4 - ATTORNEY TEAM/MEET THE LAWYERS SECTION -->
+
 <section class="section_4">
   <div class="law_firm">
     <div class="row">
       <div class="container">
+
         <!-- CIRCLE IMAGES OF LAWYERS -->
+
         <input id="tab1" type="radio" name="tabs" checked>
         <label for="tab1"><img class="cirimage" id="image1" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/leandro_circle.png" alt="Leandro Carvalho"></label>
 
@@ -160,6 +161,9 @@
     </div>
   </div>
 </section>
+
+<!-- SECTION 5 - SPRITES/AWARDS/NOTICES SECTION -->
+
 <section class="section_5">
   <div class="container">
     <div class="row">
@@ -189,6 +193,9 @@
     </div>
   </div>
 </section>
+
+<!-- SECTION 6 - RECENT BLOG POSTS SECTION -->
+
 <section class="section_6">
   <div class="row">
     <div class="col-md-12">
@@ -196,27 +203,28 @@
     </div>
   <div class="row">
     <div class="container">
-      <div class="blog-wrapper">
+      <div class="col-lg-3">
         <div class="blog_post">
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-            <?php $latest_blog_posts = new WP_Query( array( 'posts_per_page' => 4 ) );  ?>
+              <?php $latest_blog_posts = new WP_Query( array( 'posts_per_page' => 1 ) );  ?>
 
-            <?php if ( $latest_blog_posts->have_posts() ) : while ( $latest_blog_posts->have_posts() ) : $latest_blog_posts->the_post(); ?>
+              <?php if ( $latest_blog_posts->have_posts() ) : while ( $latest_blog_posts->have_posts() ) : $latest_blog_posts->the_post(); ?>
 
-              <?php the_post_thumbnail() ?>
-              <a style="color:#333333;" href="<?php the_permalink(); ?>"><h4> <?php the_title(); ?> </h4></a>
-              <p>  <?php the_excerpt(); ?> </p>
-              <h6> <?php the_date(); ?> </h6>
-              <a id="read_more" href="<?php the_permalink(); ?>">Read More</a>
 
-            <?php endwhile; endif; ?>
+                  <?php the_post_thumbnail() ?>
+                  <a style="color:#333333;" href="<?php the_permalink(); ?>"><h4> <?php the_title(); ?> </h4></a>
+                  <p>  <?php the_excerpt(); ?> </p>
+                  <h6> <?php the_date(); ?> </h6>
+                  <a id="read_more" href="<?php the_permalink(); ?>">Read More</a>
+
+
+              <?php endwhile; endif; ?>
 
           <?php endwhile; else : ?>
             <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
           <?php endif; ?>
         </div>
-        <span class="blog-stretch"></span>
       </div>
     </div>
   </div>
@@ -226,6 +234,9 @@
     </div>
   </div>
 </section>
+
+<!-- SECTION 7 - UNDERSTANDING THE LAW SECTION -->
+
 <section class="section_7">
   <div class="row">
     <div class="col-md-12">
@@ -255,6 +266,9 @@
     </div>
   </div>
 </section>
+
+<!-- SECTION 8 - VIDEO LIBRARY SECTION -->
+
 <section class="section_8">
   <div class="row">
     <div class="col-md-12">
@@ -303,6 +317,9 @@
       </div>
     </div>
 </section>
+
+<!-- SECTION 9 - PERSONAL INJURY BUTTON SECTION -->
+
 <section class="section_9">
   <div class="row">
     <div class="col-md-12">
@@ -356,6 +373,9 @@
     </div>
   </div>
 </section>
+
+<!-- SECTION 10 - CONTACT US SUBMISSION FORM -->
+
 <section class=section_10>
   <div class="row">
     <div class="col-md-12">
@@ -380,6 +400,9 @@
     </div>
   </div>
 </section>
+
+<!-- SECTION 11 - LOCATIONS/CONTACT US INFORMATION -->
+
 <section class="section_11">
   <div class="location_title">
     <h2 id="section11_sectiontitle" class="section_title">OUR LOCATIONS</h2>
@@ -434,18 +457,27 @@
   </div>
 
 </section>
+
+<!-- SECTION 12 - PRE-FOOTER NAVIGATION/BRANDING SECTION -->
+
 <section class="section_12">
   <div class="container">
     <img src="http://madalon2.wpengine.com/wp-content/uploads/2017/01/Madalon_Logo_270px_rev_1.png" alt="Madalon Law Firm Logo">
-    <ul>
-      <a href="http://madalon2.wpengine.com/"><li>HOME</li></a>
-      <a href="http://madalon2.wpengine.com/disclaimer"><li>DISCLAIMER</li></a>
-      <a href="http://madalon2.wpengine.com/privacy-policy"><li>PRIVACY POLICY</li></a>
-      <a href="http://madalon2.wpengine.com/sitemap"><li>SITE MAP</li></a>
-      <a href="http://madalon2.wpengine.com/contact-us"><li>CONTACT US</li></a>
-    </ul>
+    <nav class="footer-nav">
+      <?php
+        $defaults = array(
+          'container'      => true,
+          'theme_location' => 'footer_nav',
+          'menu_class'     => ''
+        );
+        wp_nav_menu( $defaults );
+      ?>
+    </nav>
   </div>
 </section>
+
+<!-- SECTION 13 - SOCIAL MEDIA/DISCLAIMER SECTION -->
+
 <section class="section_13">
   <div class="container">
     <div class="footerlocalities">
