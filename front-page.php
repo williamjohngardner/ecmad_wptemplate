@@ -244,25 +244,17 @@
     </div>
   <div class="row">
     <div class="container">
-    <div class="col-md-3">
-      <a href="#"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/AutomobileAccident.jpg" alt="Automobile Accident"></a>
-      <a href="#"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/BoatingAccidents.jpg" alt="Boating Accident"></a>
-      <a href="#"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/HospitalNeglegence.jpg" alt="Hospital Neglegence"></a>
-    </div>
-    <div class="col-md-3">
-      <a href="#"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/LackOfSecurity.jpg" alt="Lack of Security"></a>
-      <a href="#"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/MedicalMalpractice.jpg" alt="Medical Malpractice"></a>
-      <a href="#"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/Motorcycle-Accident-Lawyer.jpg" alt="Motorcycle Accident Lawyer"></a>
-    </div>
-    <div class="col-md-3">
-      <a href="#"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/NursingHomeAbuse.jpg" alt="Nursing Home Abuse"></a>
-      <a href="#"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/Product_Liability.jpg" alt="Product Liability"></a>
-      <a href="#"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/SexualHarassment.jpg" alt="Sexual Harrassment"></a>
-    </div>
-    <div class="col-md-3">
-      <a href="#"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/SlipnFall.jpg" alt="Slip and Fall"></a>
-      <a href="#"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/VacationandResort.jpg" alt="Vacation and Resort Injury"></a>
-    </div>
+      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <?php $query = new WP_Query( array( 'post_type' => 'page', 'post__in' => array( 574, 576, 578, 580, 582, 587, 592, 589, 594, 3497 ) ) ); ?>
+        <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+
+          <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+
+        <?php endwhile; endif; ?>
+
+      <?php endwhile; else : ?>
+        <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+      <?php endif; ?>
     </div>
   </div>
 </section>
