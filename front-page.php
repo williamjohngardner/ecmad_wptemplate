@@ -318,47 +318,47 @@
   <div class="row">
     <div class="col-md-4">
       <ul id="button_list_1">
-        <li><button href="http://localhost/ec-madalonlaw.com/personal-injury-2/amusement-park-accidents" type="button" name="button">AMUSEMENT PARK ACCIDENTS<i class="fa fa-fort-awesome" aria-hidden="true"></i></button></li>
-        <li><button href="http://localhost/ec-madalonlaw.com/personal-injury-2/bicycle-injuries" type="button" name="button">BICYCLE INJURIES<i class="fa fa-bicycle" aria-hidden="true"></i></button></li>
-        <li><button href="http://localhost/ec-madalonlaw.com/personal-injury-2/burn-injuries" type="button" name="button">BURN INJURIES<i class="fa fa-medkit" aria-hidden="true"></i></button></li>
-        <li><button href="http://localhost/ec-madalonlaw.com/personal-injury-2/construction-accidents" type="button" name="button">CONSTRUCTION ACCIDENTS<i class="fa fa-gavel" aria-hidden="true"></i></button></li>
-        <li><button href="http://localhost/ec-madalonlaw.com/personal-injury-2/drunk-driving-victim" type="button" name="button">DRUNK DRIVING VICTIM<i class="fa fa-beer" aria-hidden="true"></i></button></li>
-        <li><button href="http://localhost/ec-madalonlaw.com/personal-injury-2/medical-malpractice" type="button" name="button">MEDICAL MALPRACTICE<i class="fa fa-stethoscope" aria-hidden="true"></i></button></li>
-        <li><button href="http://localhost/ec-madalonlaw.com/personal-injury-2/negligent-andor-inadequate-security" type="button" name="button">NEGLIGENT/INADEQUATE SECURITY<i class="fa fa-times" aria-hidden="true"></i></button></li>
-        <li><button href="http://localhost/ec-madalonlaw.com/personal-injury-2/personal-injury-protection-benefits" type="button" name="button">PERSONAL INJURY PROTECTION BENEFITS<i class="fa fa-stethoscope" aria-hidden="true"></i></button></li>
-        <li><button href="http://localhost/ec-madalonlaw.com/personal-injury-2/resort-injuries-vacation-injuries" type="button" name="button">RESORT OR VACATION INJURIES<i class="fa fa-lemon-o" aria-hidden="true"></i></button></li>
-        <li><button href="http://localhost/ec-madalonlaw.com/personal-injury-2/spinal-cord-injury" type="button" name="button">SPINAL CORD INJURIES<i class="fa fa-wheelchair" aria-hidden="true"></i></button></li>
-        <li><button href="http://localhost/ec-madalonlaw.com/personal-injury-2/truck-accidents" type="button" name="button">TRUCK ACCIDENTS<i class="fa fa-truck" aria-hidden="true"></i></button></li>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/amusement-park-accidents"><li><button type="button" name="button">AMUSEMENT PARK ACCIDENTS<i class="fa fa-fort-awesome" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/bicycle-injuries"><li><button type="button" name="button">BICYCLE INJURIES<i class="fa fa-bicycle" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/burn-injuries"><li><button type="button" name="button">BURN INJURIES<i class="fa fa-medkit" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/construction-accidents"><li><button type="button" name="button">CONSTRUCTION ACCIDENTS<i class="fa fa-gavel" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/drunk-driving-victim"><li><button type="button" name="button">DRUNK DRIVING VICTIM<i class="fa fa-beer" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/medical-malpractice"><li><button type="button" name="button">MEDICAL MALPRACTICE<i class="fa fa-stethoscope" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/negligent-andor-inadequate-security"><li><button type="button" name="button">NEGLIGENT/INADEQUATE SECURITY<i class="fa fa-times" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/personal-injury-protection-benefits"><li><button type="button" name="button">PERSONAL INJURY PROTECTION BENEFITS<i class="fa fa-stethoscope" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/resort-injuries-vacation-injuries"><li><button type="button" name="button">RESORT OR VACATION INJURIES<i class="fa fa-lemon-o" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/spinal-cord-injury"><li><button type="button" name="button">SPINAL CORD INJURIES<i class="fa fa-wheelchair" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/truck-accidents"><li><button type="button" name="button">TRUCK ACCIDENTS<i class="fa fa-truck" aria-hidden="true"></i></button></li></a>
       </ul>
     </div>
     <div class="col-md-4">
       <ul id="button_list_2">
-        <li><button href="" type="button" name="button">AVIATION ACCIDENTS<i class="fa fa-plane" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">BIRTH INJURY<i class="fa fa-child" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">BUS ACCIDENTS<i class="fa fa-bus" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">DEFECTIVE ROADWAYS<i class="fa fa-road" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">HEAD & BRAIN INJURY<i class="fa fa-cogs" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">MEDTRONIC INFUSE BONE GRAFT<i class="fa fa-hospital-o" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">NURSING HOME ABUSE<i class="fa fa-heart-o" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">PREMESIS LIABILITY<i class="fa fa-key" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">SEXUAL HARASSMENT<i class="fa fa-venus" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">SWIMMING POOL ACCIDENT<i class="fa fa-anchor" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">VEHICLE ROLLOVERS<i class="fa fa-car" aria-hidden="true"></i></button></li>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/aviation-accidents"><li><button href="" type="button" name="button">AVIATION ACCIDENTS<i class="fa fa-plane" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/birth-injury"><li><button href="" type="button" name="button">BIRTH INJURY<i class="fa fa-child" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/bus-accidents"><li><button href="" type="button" name="button">BUS ACCIDENTS<i class="fa fa-bus" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/defective-roadways"><li><button href="" type="button" name="button">DEFECTIVE ROADWAYS<i class="fa fa-road" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/head-and-brain-injury"><li><button href="" type="button" name="button">HEAD & BRAIN INJURY<i class="fa fa-cogs" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/medtronic-infuse-bone-graft"><li><button href="" type="button" name="button">MEDTRONIC INFUSE BONE GRAFT<i class="fa fa-hospital-o" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/nursing-home-abuse"><li><button href="" type="button" name="button">NURSING HOME ABUSE<i class="fa fa-heart-o" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/premises-liability"><li><button href="" type="button" name="button">PREMESES LIABILITY<i class="fa fa-key" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/sexual-harassment"><li><button href="" type="button" name="button">SEXUAL HARASSMENT<i class="fa fa-venus" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/swimming-pool-accident"><li><button href="" type="button" name="button">SWIMMING POOL ACCIDENT<i class="fa fa-anchor" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/vehicle-rollovers"><li><button href="" type="button" name="button">VEHICLE ROLLOVERS<i class="fa fa-car" aria-hidden="true"></i></button></li></a>
       </ul>
     </div>
     <div class="col-md-4">
       <ul id="button_list_3">
-        <li><button href="" type="button" name="button">BAR & RESTAURANT FIGHTS<i class="fa fa-glass" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">BOATING & CRUISE SHIP INJURIES<i class="fa fa-ship" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">CAR ACCIDENTS<i class="fa fa-car" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">DOG BITES<i class="fa fa-paw" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">HORSE RIDING ACCIDENTS<i class="fa fa-ticket" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">MOTORCYCLE ACCIDENT<i class="fa fa-motorcycle" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">PEDESTRIAN ACCIDENT<i class="fa fa-user" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">PRODUCT LIABILITY<i class="fa fa-cube" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">SLIP & FALL<i class="fa fa-exclamation-triangle" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">THEME PARK SLIP & FALL INJURIES<i class="fa fa-flag" aria-hidden="true"></i></button></li>
-        <li><button href="" type="button" name="button">WRONGFUL DEATH<i class="fa fa-bomb" aria-hidden="true"></i></button></li>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/bar-and-nightclub-fight-accident"><li><button href="" type="button" name="button">BAR & RESTAURANT FIGHTS<i class="fa fa-glass" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/boating-and-cruise-ship-injuries"><li><button href="" type="button" name="button">BOATING & CRUISE SHIP INJURIES<i class="fa fa-ship" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/car-accidents"><li><button href="" type="button" name="button">CAR ACCIDENTS<i class="fa fa-car" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/dog-bites"><li><button href="" type="button" name="button">DOG BITES<i class="fa fa-paw" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/horse-riding-accident"><li><button href="" type="button" name="button">HORSE RIDING ACCIDENTS<i class="fa fa-ticket" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/motorcycle-accidents"><li><button href="" type="button" name="button">MOTORCYCLE ACCIDENT<i class="fa fa-motorcycle" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/pedestrian-accidents"><li><button href="" type="button" name="button">PEDESTRIAN ACCIDENT<i class="fa fa-user" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/product-liability"><li><button href="" type="button" name="button">PRODUCT LIABILITY<i class="fa fa-cube" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/understanding-the-law/slip-fall"><li><button href="" type="button" name="button">SLIP & FALL<i class="fa fa-exclamation-triangle" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/theme-park-slip-and-fall-injuries"><li><button href="" type="button" name="button">THEME PARK SLIP & FALL INJURIES<i class="fa fa-flag" aria-hidden="true"></i></button></li></a>
+        <a href="http://localhost/ec-madalonlaw.com/personal-injury-2/wrongful-death"><li><button href="" type="button" name="button">WRONGFUL DEATH<i class="fa fa-bomb" aria-hidden="true"></i></button></li></a>
       </ul>
     </div>
   </div>
