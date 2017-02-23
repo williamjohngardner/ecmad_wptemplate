@@ -203,29 +203,28 @@
     </div>
   <div class="row">
     <div class="container">
-      <div class="col-lg-3">
         <div class="blog_post">
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-              <?php $latest_blog_posts = new WP_Query( array( 'posts_per_page' => 1 ) );  ?>
+              <?php $latest_blog_posts = new WP_Query( array( 'posts_per_page' => 4 ) );  ?>
 
               <?php if ( $latest_blog_posts->have_posts() ) : while ( $latest_blog_posts->have_posts() ) : $latest_blog_posts->the_post(); ?>
-
-
-                  <?php the_post_thumbnail() ?>
-                  <a style="color:#333333;" href="<?php the_permalink(); ?>"><h4> <?php the_title(); ?> </h4></a>
-                  <p>  <?php the_excerpt(); ?> </p>
-                  <h6> <?php the_date(); ?> </h6>
-                  <a id="read_more" href="<?php the_permalink(); ?>">Read More</a>
-
-
+                <div class="col-lg-3">
+                  <div class="blog_loop">
+                    <?php the_post_thumbnail() ?>
+                    <a style="color:#333333;" href="<?php the_permalink(); ?>"><h4> <?php the_title(); ?> </h4></a>
+                    <p>  <?php the_excerpt(); ?> </p>
+                    <h6> <?php the_date(); ?> </h6>
+                    <a id="read_more" href="<?php the_permalink(); ?>">Read More</a>
+                  </div>
+                </div>
               <?php endwhile; endif; ?>
 
           <?php endwhile; else : ?>
             <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
           <?php endif; ?>
+          <span class="blog_stretch"></span>
         </div>
-      </div>
     </div>
   </div>
   <div class="row">
