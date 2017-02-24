@@ -326,10 +326,14 @@ nav ul {
   height: 500px;
 }
 
+#section4_title {
+  color: #a21c26;
+  margin-bottom: 0;
+}
 /* START OF TABS CSS*/
 
 .law_firm {
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 .section {
@@ -382,9 +386,14 @@ img {
   margin-bottom: 25px;
 }
 
-
+.lawteam_frame {
+  border: none;
+}
 
 .cirimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 175px;
   height: 175px;
 }
@@ -640,30 +649,21 @@ button {
   width: 350px;
   height: 62px;
   border-radius: 5px;
-  margin-top: 20px;
-  margin-right: 0;
   color: #ffffff;
   font-size: 1.2em;
-  display: block;
-  list-style-type: none;
   box-shadow: 5px 5px 10px #333333;
   text-align: center;
-  padding-left: 15px;
+
 }
 
-#button_list_1 {
+#button_list_1 li, #button_list_2 li, #button_list_3 li {
   list-style-type: none;
-  margin-left: 30px;
+  margin-top: 20px;
 }
 
-#button_list_2 {
-  list-style-type: none;
-  float: center;
-}
-
-#button_list_3 {
-  list-style-type: none;
-  margin-bottom: 40px;
+#button_list_1, #button_list_2, #button_list_3 {
+  padding-left: 0px !important;
+  margin-bottom: 60px;
 }
 
 .section_10 {
