@@ -1,7 +1,7 @@
 <footer>
   <p><ul>
     <li>Copyright © <?php echo date('Y'); ?></li>
-    <li>Madalon Law</li>
+    <li> | Madalon Law |</li>
     <li>Powered By: EverConvert</li>
   </ul></p>
 </footer>

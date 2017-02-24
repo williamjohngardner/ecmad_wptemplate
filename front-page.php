@@ -165,19 +165,6 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="container">
-        <div class="tab">
-          <div class="tabcontent2">
-            <h2 class="name">MADALON LAW'S LAW TEAM</h2>
-            <br>
-            <p id="default_lawtext">
-              WE ARE THE GOODEST LAWYERS THERE ARE.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 

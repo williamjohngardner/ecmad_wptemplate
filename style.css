@@ -323,7 +323,7 @@ nav ul {
   background-image: url('images/LegalTeam_Background_rev_1.jpg');
   background-repeat: no-repeat;
   background-position: top;
-  height: 750px;
+  height: 650px;
 }
 
 #section4_title {
@@ -339,8 +339,8 @@ nav ul {
   display: block;
 }
 
-.tab:hover > .tabcontent2 {
-  display: none;
+.tabcontent1 p {
+  text-align: justify;
 }
 
 
@@ -364,6 +364,7 @@ nav ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25px;
   width: 175px;
   height: 175px;
 }
