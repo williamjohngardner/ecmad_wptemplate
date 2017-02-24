@@ -9,7 +9,7 @@
       <div id="hero_text">
         <i>Over</i>
         <strong id="hero">$75 MILLION</strong>
-        <i>Recovered in Judgments & Settlements</i>
+        <i>in Judgments & Settlements</i>
         <br>
         <div class="row">
           <div class="col-md-1"></div>
@@ -128,20 +128,54 @@
     <div class="row">
       <div class="container">
         <div class="col-lg-4">
-          <a href="http://www.core77.com" target="iframe_a"><img class="cirimage" id="image1" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/leandro_circle.png" alt="Leandro Carvalho"></a>
+          <div class="tab">
+            <img class="cirimage" id="image1" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/leandro_circle.png" alt="Leandro Carvalho">
+            <div class="tabcontent1">
+              <h2 class="name">LEANDRO CARVALHO</h2>
+              <br>
+              <p>
+                Born in Brazil, I obtained my United States of America citizenship while growing up in Toledo, Ohio. My decision to practice in law was realized at an early age as I knew I wanted to help people in any way that I could. Initially, I was a firefighter for this very reason. However, as time went on I felt I was ready to finally pursue my legal education and so I attended the University Of Dayton School Of Law (with scholarship).
+              </p>
+            </div>
+          </div>
         </div>
         <div class="col-lg-4">
-          <a href="http://www.cnn.com" target="iframe_a"><img class="cirimage" id="image2" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/rebecca-kendel.png" alt="Rebecca Kendel"></a>
+          <div class="tab">
+            <img class="cirimage" id="image2" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/rebecca-kendel.png" alt="Rebecca Kendel">
+            <div class="tabcontent1">
+              <h2 class="name">REBECCA KENDELL</h2>
+              <br>
+              <p>
+                I decided I wanted to help protect natural beauty such as I saw in Delaware’s forests, streams, gardens and open fields. I always kept that in sight as I progressed through my schooling. Though I was offered a full musical scholarship to attend the University of Delaware, I decided to go across the bridge to the neighboring state of New Jersey and attend Rutgers University.
+              </p>
+            </div>
+          </div>
         </div>
         <div class="col-lg-4">
-          <a href="http://www.npr.com" target="iframe_a"><img class="cirimage" id="image3" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/susan_circle.png" alt="Susan Lee"></a>
+          <div class="tab">
+            <img class="cirimage" id="image3" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/susan_circle.png" alt="Susan Lee">
+            <div class="tabcontent1">
+              <h2 class="name">SUSAN LEE</h2>
+              <br>
+              <p>
+                Ms. Lee grew up in Fort Worth, Texas and is a 1999 summa cum laude graduate of St. Edward’s University in Austin, Texas with a bachelor’s of business administration in accounting. Ms. Lee went on to graduate summa cum laude from Texas Tech University School of Law in Lubbock, Texas in 2003. Ms. Lee was admitted to practice in Texas in 2003 and began her career in Austin. Ms. Lee’s practice in Texas focused on civil litigation and the representation of small businesses in contract disputes, fraud claims, and breaches of fiduciary duty and individuals in personal injury and wrongful death claims.
+              </p>
+            </div>
+          </div>
         </div>
-        <span class="lawteamspan"></span>
       </div>
     </div>
     <div class="row">
       <div class="container">
-        <iframe class="lawteam_frame" src="demo_iframe.html" width="100%" height="" name="iframe_a"></iframe>
+        <div class="tab">
+          <div class="tabcontent2">
+            <h2 class="name">MADALON LAW'S LAW TEAM</h2>
+            <br>
+            <p id="default_lawtext">
+              WE ARE THE GOODEST LAWYERS THERE ARE.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -260,8 +294,8 @@
       <a href="#"><h6 id="section8_button">See More Videos</h6></a>
     </div>
     <div class="row">
-      <div class="video_container">
-        <div id="video_links1" class="col-md-4 videocol1">
+      <div class="container">
+        <div id="video_container" class="col-md-4">
           <ul>
             <li><a href="https://www.youtube.com/watch?v=VSqM_tR29BI" target"_blank">HOW MUCH DOES AN ACCIDENT<br>LAWYER COST?</a></li>
             <li><a href="https://www.youtube.com/watch?v=fTgfwJG8ojE" target"_blank">HIT AND RUN<br>ACCIDENTS</a></li>
@@ -270,7 +304,7 @@
             <li><a href="https://www.youtube.com/watch?v=BaUwhH20iFQ" target"_blank">BICYCLE<br>ACCIDENTS</a></li>
           </ul>
         </div>
-        <div id="video_links2" class="col-md-4">
+        <div id="video_container" class="col-md-4">
           <ul>
             <li><a href="https://www.youtube.com/watch?v=z83tU9tlhDI" target"_blank">CRUISE SHIP<br>INJURIES</a></li>
             <li><a href="https://www.youtube.com/watch?v=OEhcx6gyXSg" target"_blank">HOW LONG DO I HAVE<br>TO FILE MY CASE?</a></li>
@@ -278,16 +312,13 @@
             <li><a href="https://www.youtube.com/watch?v=85YZSsCw0fU" target"_blank">UNDERINSURED<br>MOTORIST COVERAGE</a></li>
           </ul>
         </div>
-        <div id="video_links3" class="col-md-4">
+        <div id="video_container" class="col-md-4">
           <ul>
             <li><a href="https://www.youtube.com/watch?v=dEADDI0lQss" target"_blank">DRUNK DRIVING<br>ACCIDENTS</a></li>
             <li><a href="https://www.youtube.com/watch?v=KZ7Gj2QqK_o" target"_blank">HOW MUCH IS MY<br>CLAIM WORTH?</a></li>
             <li><a href="https://www.youtube.com/watch?v=phnwJDo_fhE" target"_blank">PEDESTRIAN<br>ACCIDENTS</a></li>
             <li><a href="https://www.youtube.com/watch?v=mZQkxQar5xk" target"_blank">WHAT IF I'M A PASSENGER IN<br>AN ACCIDENT?</a></li>
           </ul>
-        </div>
-        <div>
-        <span class="video_stretch"></span>
         </div>
       </div>
     </div>
