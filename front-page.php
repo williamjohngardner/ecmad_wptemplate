@@ -8,7 +8,7 @@
     <div class="col-md-6">
       <div id="hero_text">
         <i>Over</i>
-        <strong id="hero">$75 MILLION</strong>
+        <strong id="hero"> <?php echo $value = apply_filters( 'hero_amount', '$75 MILLION' ); ?> </strong>
         <i>in Judgments & Settlements</i>
         <br>
         <div class="row">
@@ -246,7 +246,16 @@
   <div class="row">
     <div class="container">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <?php $query = new WP_Query( array( 'post_type' => 'page', 'post__in' => array( 574, 576, 578, 580, 582, 587, 592, 589, 594, 3497 ) ) ); ?>
+        <?php $query = new WP_Query(
+                  array(
+                      'post_type'       =>  'page',
+                      'post__in'        =>  array( 574, 576, 578, 580, 582, 587, 592, 584, 589, 594, 3497 ),
+                      'posts_per_page'  =>  12,
+                      'orderby'         =>  'title',
+                      'order'           =>  ASC,
+                  )
+              );
+          ?>
         <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 
           <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
@@ -319,7 +328,17 @@
     <div class="container">
       <div class="practice_area_wrapper">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-          <?php $query = new WP_Query( array( 'post_parent' => array( 3476 ) ) ); ?>
+          <?php $query = new WP_Query(
+                      array(
+                          'post_type'       =>  'page',
+                          'post_parent'     =>  3476,
+                          'orderby'         =>  'title',
+                          'order'           =>  ASC,
+                          'posts_per_page'  =>  '33',
+                          'depth'           =>  0,
+                      )
+                  );
+          ?>
           <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 
             <div class="col-md-4">

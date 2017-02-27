@@ -29,6 +29,16 @@ a:hover {
   color: #777777;
 }
 
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 header {
   background-image: url('images/header_background_red_rev_2.png');
   background-repeat: no-repeat;
@@ -323,7 +333,7 @@ nav ul {
   background-image: url('images/LegalTeam_Background_rev_1.jpg');
   background-repeat: no-repeat;
   background-position: top;
-  height: 650px;
+  height: 575px;
 }
 
 #section4_title {
@@ -477,6 +487,7 @@ nav ul {
   background-color: gray;
   background-image: url('images/UnderstandingLaw_Background_rev_1.jpg');
   overflow: hidden;
+  padding-bottom: 50px;
 }
 
 #section7_sectiontitle {
@@ -497,6 +508,7 @@ nav ul {
   background-repeat: no-repeat;
   background-position: top;
   height: auto;
+  padding-bottom: 50px;
 }
 
 #vid_frame {
@@ -683,6 +695,7 @@ button {
   background-size: 100%;
 	overflow: hidden;
 	height: auto;
+  padding-bottom: 30px;
 }
 
 #section11_sectiontitle {
