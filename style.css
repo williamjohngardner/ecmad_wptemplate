@@ -605,6 +605,7 @@ nav ul {
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+  padding-bottom: 50px;
 }
 
 button {
@@ -614,6 +615,7 @@ button {
   border-radius: 5px;
   color: #ffffff;
   font-size: 1.2em;
+  text-transform: uppercase;
   box-shadow: 5px 5px 10px #333333;
   text-align: center;
 
@@ -626,7 +628,10 @@ button {
 
 #button_list_1, #button_list_2, #button_list_3 {
   padding-left: 0px !important;
-  margin-bottom: 60px;
+}
+
+.practice_area_wrapper > .col-md-4 {
+  margin-bottom: 0;
 }
 
 .section_10 {
