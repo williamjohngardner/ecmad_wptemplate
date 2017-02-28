@@ -17,6 +17,7 @@
             <div class="col-md-4">
               <div class="header-left">
                 <div class="site-logo">
+                  <img src="<?php the_field('header_logo'); ?>" alt=" <?php bloginfo('name'); ?> ">
                 </div>
               </div>
             </div>

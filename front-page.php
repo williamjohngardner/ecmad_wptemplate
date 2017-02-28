@@ -34,11 +34,11 @@
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-4">
-            <a class="section_cta" href="#">SEE OUR RESULTS</a>
+            <a class="section_cta" href="<?php the_field('hero_button_left_url'); ?>"><?php the_field('hero_button_left_text'); ?></a>
           </div>
           <div class="col-md-2"></div>
           <div class="col-md-4">
-            <a class="section_cta" href="#">FREE CASE REVIEW</a>
+            <a class="section_cta" href="<?php the_field('hero_button_right_url'); ?>"><?php the_field('hero_button_right_text'); ?></a>
           </div>
           <div class="col-md-1"></div>
         </div>
