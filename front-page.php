@@ -136,33 +136,33 @@
       <div class="container">
         <div class="col-lg-4">
           <div class="tab">
-            <img class="cirimage" id="image1" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/leandro_circle.png" alt="Leandro Carvalho">
-            <h2 class="name">LEANDRO CARVALHO</h2>
+            <img class="cirimage" id="image1" src="<?php the_field('attorney_1_image'); ?>" alt="<?php the_field('attorney_1_name'); ?>">
+            <h2 class="name"><?php the_field('attorney_1_name'); ?></h2>
             <div class="tabcontent1">
               <p>
-                Born in Brazil, I obtained my United States of America citizenship while growing up in Toledo, Ohio. My decision to practice in law was realized at an early age as I knew I wanted to help people in any way that I could. Initially, I was a firefighter for this very reason. However, as time went on I felt I was ready to finally pursue my legal education and so I attended the University Of Dayton School Of Law (with scholarship).
+                <?php the_field('attorney_1_bio'); ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="tab">
-            <img class="cirimage" id="image2" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/rebecca-kendel.png" alt="Rebecca Kendel">
-            <h2 class="name">REBECCA KENDELL</h2>
+            <img class="cirimage" id="image2" src="<?php the_field('attorney_2_image'); ?>" alt="<?php the_field('attorney_2_name'); ?>">
+            <h2 class="name"><?php the_field('attorney_2_name'); ?></h2>
             <div class="tabcontent1">
               <p>
-                I decided I wanted to help protect natural beauty such as I saw in Delaware’s forests, streams, gardens and open fields. I always kept that in sight as I progressed through my schooling. Though I was offered a full musical scholarship to attend the University of Delaware, I decided to go across the bridge to the neighboring state of New Jersey and attend Rutgers University.
+                <?php the_field('attorney_2_bio'); ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="tab">
-            <img class="cirimage" id="image3" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/susan_circle.png" alt="Susan Lee">
-            <h2 class="name">SUSAN LEE</h2>
+            <img class="cirimage" id="image3" src="<?php the_field('attorney_3_image'); ?>" alt="<?php the_field('attorney_3_name'); ?>">
+            <h2 class="name"><?php the_field('attorney_3_name'); ?></h2>
             <div class="tabcontent1">
               <p>
-                Ms. Lee grew up in Fort Worth, Texas and is a 1999 summa cum laude graduate of St. Edward’s University in Austin, Texas with a bachelor’s of business administration in accounting. Ms. Lee went on to graduate summa cum laude from Texas Tech University School of Law in Lubbock, Texas in 2003. Ms. Lee was admitted to practice in Texas in 2003 and began her career in Austin.
+                <?php the_field('attorney_3_bio'); ?>
               </p>
             </div>
           </div>
