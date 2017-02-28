@@ -7,9 +7,9 @@
     <div class="col-md-5"></div>
     <div class="col-md-6">
       <div id="hero_text">
-        <i>Over</i>
-        <strong id="hero"> <?php echo $value = apply_filters( 'hero_amount', '$75 MILLION' ); ?> </strong>
-        <i>in Judgments & Settlements</i>
+        <i><?php the_field('hero_amount_modifier'); ?></i>
+        <strong id="hero">$<?php the_field('hero_amount'); ?></strong>
+        <i><?php the_field('hero_amount_type'); ?></i>
         <br>
         <div class="row">
           <div class="col-md-1"></div>

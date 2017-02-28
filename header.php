@@ -26,15 +26,15 @@
             <!--Center Header Content Area-->
             <div class="col-md-4">
               <div class="header-center">
-                <a href="tel:877-486-2882"><h2 id="primaryphone"> 1-877-IT-<span id="phonematters">MATTERS</span></h2></a>
+                <a href="tel:<?php the_field('primary_phone_number'); ?>"><h2 id="primaryphone"><?php the_field('primary_phone_header_black'); ?><span id="phonematters"><?php the_field('primary_phone_header_red'); ?></span></h2></a>
               </div>
             </div>
             <!--Right Header Content Area-->
             <div class="col-md-4">
               <div class="header-right">
-                <h6><i>Home & Hospital Visits</i></h6>
-                <h4>(844) 885-8777</h4>
-                <h5>FREE CASE REVIEW</h5>
+                <h6><i><?php the_field('right_head_top_text'); ?></i></h6>
+                <h4><?php the_field('right_head_phone'); ?></h4>
+                <h5><?php the_field('right_head_bottom_text'); ?></h5>
               </div>
             </div>
         </div>
