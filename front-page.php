@@ -474,13 +474,13 @@
     <div class="footerlocalities">
       <div class="social" id="footer-social">
         <div class="description">
-            <a href="https://www.facebook.com/madalonlaw" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/facebook-64-1.png" alt="Facebook"></a>
-            <a href="https://twitter.com/MadalonLaw" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/twitter-64-1.png" alt="Twitter"></a>
-            <a href="https://www.linkedin.com/pub/joseph-madalon/45/b92/971" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/linkedin-64-1.png" alt="LinkedIn"></a>
-            <a href="https://plus.google.com/107399879433468824916/about" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/google-plus-64-1.png" alt="Google Plus"></a>
-            <a href="https://www.youtube.com/user/MadalonLawFirm" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/youtube-64-1.png" alt="Youtube"></a>
-            <a href="http://instagram.com/madalonlaw/" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/instagram_64-3.png" alt="Instagram"></a>
-            <a href="http://pinterest.com/madalonlaw/" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/pinterest-64-1.png" alt="Pinterest"></a>
+            <a href="<?php the_field('facebook_url'); ?>" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/facebook-64-1.png" alt="Facebook"></a>
+            <a href="<?php the_field('twitter_url'); ?>" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/twitter-64-1.png" alt="Twitter"></a>
+            <a href="<?php the_field('linkedin_url'); ?>" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/linkedin-64-1.png" alt="LinkedIn"></a>
+            <a href="<?php the_field('googleplus_url'); ?>" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/google-plus-64-1.png" alt="Google Plus"></a>
+            <a href="<?php the_field('youtube_url'); ?>" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/youtube-64-1.png" alt="Youtube"></a>
+            <a href="<?php the_field('instagram_url'); ?>" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/instagram_64-3.png" alt="Instagram"></a>
+            <a href="<?php the_field('pinterest_url'); ?>" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/pinterest-64-1.png" alt="Pinterest"></a>
             <p id="disclaimer">We serve the following localities: Miami-Dade County including Coral Gables, Cutler Bay, Doral, Hialeah, Homestead, Kendall West, Miami, Tamiami, The Hammocks, and Westchester; Orange County including Orlando and Winter Park; Osceola County including Kissimmee, Poinciana, and St. Cloud; Palm Beach County including Belle Glade, Lake Worth, and West Palm Beach; and Broward County including Cooper City, Fort Lauderdale, Hollywood, Miramar, Pembroke Pines, Sunrise, and Weston.</p>
         </div>
       </div>
