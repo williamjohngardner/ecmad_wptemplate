@@ -15,14 +15,21 @@
           <div class="col-md-1"></div>
           <div class="col-md-10">
             <div id="slider">
-              <ul>
-                <li><p>Experience was great.  First time using this law firm, everyone is very helpful and very professional.<br>
-                    I really like it and recommend it to everyone.<br><strong>Jackie E.</strong></p></li>
-                <li><p>Choosing an attorney is as important as choosing a surgeon.<br>
-                    When you hire an attorney you place a very important part of your life in their hands.</p>
-                    <strong>Joseph Madalon, Esq.
-                    <br>Founder of Madalon Law</strong></li>
-              </ul>
+
+                <p>
+                  <?php
+                    if( have_rows('testimonial_slide_show') ):
+                      while ( have_rows('testimonial_slide_show') ) : the_row();
+                        the_sub_field('testimonial_text');
+
+                      endwhile;
+                    else :
+                      // no rows found
+                    endif;
+                  ?>
+                </p>
+
+
             </div>
             <div class="slider_option">
               <input type="checkbox" id="checkbox">
@@ -107,10 +114,10 @@
   <div class="row">
     <div class="col-md-5"></div>
     <div class="col-md-6" id="section3_text">
-      <h3>HEAD ATTORNEY <br><b>JOSEPH MADALON</b></h3>
-      <h5>WE TREAT OUR CASES AS IF WE WE&#39;RE FIGHTING FOR OUR OWN</h5>
-      <p>It does not matter if you are speaking to our litigation department, paralegals or managing attorney; you will know that the Madalon team have your best interest in mind and the focus is not on how many cases we can get in the door, but on handling each case with the care and attention needed to ensure our clients will get the best possible outcome.</p>
-      <a href="#"><h4 class="section_cta" id="section3_cta">MEET JOSEPH MADALON</h4></a>
+      <h3><?php the_field('job_title'); ?><br><b><?php the_field('head_attorney_name'); ?></b></h3>
+      <h5><?php the_field('head_attorney_tag_line'); ?></h5>
+      <p><?php the_field('head_attorney_text_area'); ?></p>
+      <a href="<?php the_field('head_attorney_button_url'); ?>"><h4 class="section_cta" id="section3_cta"><?php the_field('head_attorney_button_text'); ?></h4></a>
     </div>
     <div class="col-md-1"></div>
   </div>

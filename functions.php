@@ -41,6 +41,7 @@ function wpmad_theme_styles() {
   wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css');
   wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.css');
 
+
 }
 add_action( 'wp_enqueue_scripts', 'wpmad_theme_styles' );
 
@@ -53,11 +54,9 @@ function wpmad_theme_js() {
 }
 add_action( 'wp_enqueue_scripts', 'wpmad_theme_js');
 
+// function to generate a custom style sheet from a php document
 
-$args = array(
-	'default-color' => 'a21c26',
-);
-add_theme_support( 'custom-background', $args );
+
 
 
 ?>
