@@ -227,7 +227,7 @@
                     <a id="read_more" href="<?php the_permalink(); ?>">Read More</a>
                   </div>
                 </div>
-
+                <?php wp_reset_postdata(); ?>
               <?php endwhile; endif; ?>
           <?php endwhile; else : ?>
             <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
@@ -267,8 +267,8 @@
 
           <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 
+          <?php wp_reset_postdata(); ?>
         <?php endwhile; endif; ?>
-
       <?php endwhile; else : ?>
         <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
       <?php endif; ?>
@@ -285,13 +285,13 @@
     </div>
   <div class="row">
     <div id="vid_frame" class="col-md-6">
-      <iframe id="main_video" width="560" height="315" src="https://www.youtube.com/embed/H1JMRLODi8g?rel=0" frameborder="0" allowfullscreen></iframe>
+      <iframe id="main_video" width="560" height="315" src="<?php the_field('featured_video_url'); ?>" frameborder="0" allowfullscreen></iframe>
     </div>
     <div id="video_title_box" class="col-md-6">
       <h2>FEATURED VIDEO:</h2>
-      <h3><i>Do I Need An Attorney To Handle My Accident Case?</i></h3>
+      <h3><i><?php the_field('featured_video_title'); ?></i></h3>
       <hr>
-      <a href="#"><h6 id="section8_button">See More Videos</h6></a>
+      <a href="<?php the_field('see_more_url'); ?>"><h6 id="section8_button">See More Videos</h6></a>
     </div>
     <div class="row">
       <div class="container">
@@ -354,8 +354,8 @@
               </div>
             </div>
 
+            <?php wp_reset_postdata(); ?>
           <?php endwhile; endif; ?>
-
         <?php endwhile; else : ?>
           <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
         <?php endif; ?>
@@ -453,7 +453,7 @@
 
 <section class="section_12">
   <div class="container">
-    <img src="http://madalon2.wpengine.com/wp-content/uploads/2017/01/Madalon_Logo_270px_rev_1.png" alt="Madalon Law Firm Logo">
+    <img src="<?php the_field('header_logo'); ?>" alt=" <?php bloginfo('name'); ?> ">
     <nav class="footer-nav">
       <?php
         $defaults = array(
@@ -481,7 +481,7 @@
             <a href="<?php the_field('youtube_url'); ?>" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/youtube-64-1.png" alt="Youtube"></a>
             <a href="<?php the_field('instagram_url'); ?>" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/instagram_64-3.png" alt="Instagram"></a>
             <a href="<?php the_field('pinterest_url'); ?>" target="_blank"><img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/pinterest-64-1.png" alt="Pinterest"></a>
-            <p id="disclaimer">We serve the following localities: Miami-Dade County including Coral Gables, Cutler Bay, Doral, Hialeah, Homestead, Kendall West, Miami, Tamiami, The Hammocks, and Westchester; Orange County including Orlando and Winter Park; Osceola County including Kissimmee, Poinciana, and St. Cloud; Palm Beach County including Belle Glade, Lake Worth, and West Palm Beach; and Broward County including Cooper City, Fort Lauderdale, Hollywood, Miramar, Pembroke Pines, Sunrise, and Weston.</p>
+            <?php the_field('disclaimer_text'); ?>
         </div>
       </div>
     </div>
