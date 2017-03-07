@@ -15,7 +15,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 get_header(); ?>
-
+<img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/03/page_bkgrnd_opt.jpg" alt=" <?php bloginfo( 'name' ); ?> ">
 <div class="container">
   <div class="row">
     <div class="col-lg-8">
