@@ -29,7 +29,6 @@
                   ?>
                 </p>
 
-
             </div>
             <div class="slider_option">
               <input type="checkbox" id="checkbox">
@@ -256,10 +255,11 @@
         <?php $query = new WP_Query(
                   array(
                       'post_type'       =>  'page',
-                      'post__in'        =>  array( 574, 576, 578, 580, 582, 587, 592, 584, 589, 594, 3497 ),
+                      'post_parent'     =>  540,
                       'posts_per_page'  =>  12,
                       'orderby'         =>  'title',
                       'order'           =>  ASC,
+                      'depth'           =>  0,
                   )
               );
           ?>
@@ -291,7 +291,7 @@
       <h2>FEATURED VIDEO:</h2>
       <h3><i><?php the_field('featured_video_title'); ?></i></h3>
       <hr>
-      <a href="<?php the_field('see_more_url'); ?>"><h6 id="section8_button">See More Videos</h6></a>
+      <a href="<?php the_field('see_more_url');  ?>"><h6 id="section8_button">See More Videos</h6></a>
     </div>
     <div class="row">
       <div class="container">
@@ -401,47 +401,47 @@
   <div class="location_container">
     <div class="map1">
       <div class="map_title">
-        <h2>FORT LAUDERDALE</h2>
-        <h4>100 N Federal Hwy #CU5
-            Ft Lauderdale, FL 33301</h4>
+        <h2><?php the_field('city1_name'); ?></h2>
+        <h4><?php the_field('city1_address'); ?>
+            <?php the_field('city1_address_city'); ?>, <?php the_field('city1_address_state'); ?> <?php the_field('city1_address_zip'); ?></h4>
       </div>
       <div class="overlay" onClick="style.pointerEvents='none'"></div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.261802126826!2d-80.13905278494545!3d26.123005533473954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ab9c9e1668d3%3A0x2f5285934f5fe4a6!2sMadalon+Law!5e0!3m2!1sen!2sus!4v1486050093596" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="<?php the_field('city1_googmap'); ?>" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
         <div class="loc_contact">
-          <h3>Phone:      (954) 923-0072 <br>
-              Toll Free:  (888) 888-2535 <br>
-              Fax:        (954) 923-0074</h3>
-          <a id="googplus" href="#"><img src="http://madalon2.wpengine.com/wp-content/uploads/2016/11/google-plus-64-1.png" alt="Google+"></a>
+          <h3>Phone:      <?php the_field('city1_phone'); ?><br>
+              Toll Free:  <?php the_field('city1_tollfree'); ?><br>
+              Fax:        <?php the_field('city1_fax'); ?></h3>
+          <a id="googplus" href="<?php the_field('googleplus_url'); ?>"><img src="http://madalon2.wpengine.com/wp-content/uploads/2016/11/google-plus-64-1.png" alt="Google+"></a>
         </div>
     </div>
 
     <div class="map2">
       <div class="map_title">
-        <h2>MIAMI</h2>
-        <h4>15715 S. Dixie Hwy #218
-          Miami, FL 33157</h4>
+        <h2><?php the_field('city2_name'); ?></h2>
+        <h4><?php the_field('city2_address'); ?>
+          <?php the_field('city2_address_city'); ?>, <?php the_field('city2_address_state'); ?> <?php the_field('city2_address_zip'); ?></h4>
       </div>
       <div class="overlay" onClick="style.pointerEvents='none'"></div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.417621701348!2d-80.34426788495546!3d25.62426148369937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9c42047dc2d61%3A0x730195f65c146581!2s15715+S+Dixie+Hwy+%23218%2C+Miami%2C+FL+33157!5e0!3m2!1sen!2sus!4v1486050195160" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="<?php the_field('city2_googmap'); ?>" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
         <div class="loc_contact">
-          <h3>Phone:      (305) 770-4171 <br>
-              Toll Free:  (888) 888-2535 <br>
-              Fax:        (954) 923-0074</h3>
-          <a id="googplus" href="#"><img src="http://madalon2.wpengine.com/wp-content/uploads/2016/11/google-plus-64-1.png" alt="Google+"></a>
+          <h3>Phone:      <?php the_field('city2_phone'); ?><br>
+              Toll Free:  <?php the_field('city2_tollfree'); ?><br>
+              Fax:        <?php the_field('city2_fax'); ?></h3>
+          <a id="googplus" href="<?php the_field('googleplus_url'); ?>"><img src="http://madalon2.wpengine.com/wp-content/uploads/2016/11/google-plus-64-1.png" alt="Google+"></a>
         </div>
     </div>
 
     <div class="map3">
       <div class="map_title">
-        <h2>WEST PALM BEACH</h2>
-        <h4>224 Datura St #611
-          West Palm Beach, FL 33401</h4>
+        <h2><?php the_field('city3_name'); ?></h2>
+        <h4><?php the_field('city3_address'); ?>
+          <?php the_field('city3_address_city'); ?>, <?php the_field('city3_address_state'); ?> <?php the_field('city3_address_zip'); ?></h4>
       </div>
       <div class="overlay" onClick="style.pointerEvents='none'"></div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.011281197869!2d-80.05389428493318!3d26.712086583214493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d8d6898ebbadeb%3A0xfd08efd2d76d0fdc!2s224+Datura+St+%23611%2C+West+Palm+Beach%2C+FL+33401!5e0!3m2!1sen!2sus!4v1486050241720" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="<?php the_field('city3_googmap'); ?>" width="350" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
         <div class="loc_contact">
-          <h3>Phone:  (561) 500-6288</h3>
-          <a id="googplus" href="#"><img src="http://madalon2.wpengine.com/wp-content/uploads/2016/11/google-plus-64-1.png" alt="Google+"></a>
+          <h3>Phone:  <?php the_field('city3_phone'); ?></h3>
+          <a id="googplus" href="<?php the_field('googleplus_url'); ?>"><img src="http://madalon2.wpengine.com/wp-content/uploads/2016/11/google-plus-64-1.png" alt="Google+"></a>
         </div>
     </div>
     <span class="stretch"></span>

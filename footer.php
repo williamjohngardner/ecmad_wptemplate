@@ -1,8 +1,8 @@
 <footer>
   <p><ul>
     <li>Copyright © <?php echo date('Y'); ?></li>
-    <li> | Madalon Law |</li>
-    <li>Powered By: EverConvert</li>
+    <li> | <?php bloginfo( 'name' ); ?> |</li>
+    <li>Powered By: <a href="http://www.everconvert.com">EverConvert</a></li>
   </ul></p>
 </footer>
 
