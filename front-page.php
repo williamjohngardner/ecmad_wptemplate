@@ -378,12 +378,12 @@
       <div class="col-md-12">
         <form class="contact_us_form" action="" method="post">
           <div class="contact_form_left">
-            <p><input type="text" name="name" placeholder="Name"></p>
-            <p><input type="email" name="email" placeholder="Email"></p>
-            <p><input type="text" name="phone" placeholder="Phone Number"></p>
+            <p><input type="text" name="text-451" placeholder="Name"></p>
+            <p><input type="email" name="email-478" placeholder="Email"></p>
+            <p><input type="text" name="tel-911" placeholder="Phone Number"></p>
           </div>
           <div class="contact_form_right">
-            <textarea name="message" rows="4" cols="80" placeholder="How Can We Help You?"></textarea>
+            <textarea name="textarea-421" rows="4" cols="80" placeholder="How Can We Help You?"></textarea>
             <input id="contact_submit" type="submit" name="contact_form_submit" value="Contact Us">
           </div>
         </form>
