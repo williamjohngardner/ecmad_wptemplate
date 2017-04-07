@@ -16,6 +16,7 @@
           <div class="col-md-10">
             <div id="slider">
 
+<!-- JAVASCRIPT TESTIMONIALS SECTION -->
                 <p>
                   <?php
                     if( have_rows('testimonial_slide_show') ):
@@ -28,6 +29,7 @@
                     endif;
                   ?>
                 </p>
+<!-- END OF JAVASCRIPT TESTIMONIALS SECTION -->
 
             </div>
             <div class="slider_option">
@@ -176,28 +178,20 @@
 <section class="section_5">
   <div class="container">
     <div class="row">
-      <div id="sprite" class="col-md-3">
+      <div id="sprite" class="col-md-2">
         <img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/YoungLawyers.jpg" alt="Top Young Lawyer 2015">
       </div>
-      <div id="sprite" class="col-md-3">
+      <div id="sprite" class="col-md-2">
         <img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/nbc6.png" alt="News 6">
       </div>
-      <div id="sprite" class="col-md-3">
+      <div id="sprite" class="col-md-2">
         <img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/MMDAdvocates.png" alt="Multi Milliion Dollar Advocates Forum">
       </div>
-      <div id="sprite" class="col-md-3">
+      <div id="sprite" class="col-md-2">
         <img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/Local_10_WPLG.png" alt="Local 10">
       </div>
-    </div>
-    <div class="row">
-      <div id="sprite" class="col-md-4">
+      <div id="sprite" class="col-md-2">
         <img style="height: 150px" width="" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/american-justice.png" alt="American Association for Justice">
-      </div>
-      <div id="sprite" class="col-md-4">
-        <img style="display: block; margin-right:auto; margin-left:auto;" src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/super-lawyers.png" alt="Super Lawyers">
-      </div>
-      <div id="sprite" class="col-md-4">
-        <img src="http://localhost/ec-madalonlaw.com/wp-content/uploads/2017/02/7News.png" alt="News 7">
       </div>
     </div>
   </div>
@@ -256,7 +250,7 @@
                   array(
                       'post_type'       =>  'page',
                       'post_parent'     =>  540,
-                      'posts_per_page'  =>  12,
+                      'posts_per_page'  =>  11,
                       'orderby'         =>  'title',
                       'order'           =>  ASC,
                       'depth'           =>  0,
@@ -376,17 +370,42 @@
   <div class="row">
     <div class="container">
       <div class="col-md-12">
-        <form class="contact_us_form" action="" method="post">
-          <div class="contact_form_left">
-            <p><input type="text" name="text-451" placeholder="Name"></p>
-            <p><input type="email" name="email-478" placeholder="Email"></p>
-            <p><input type="text" name="tel-911" placeholder="Phone Number"></p>
-          </div>
-          <div class="contact_form_right">
-            <textarea name="textarea-421" rows="4" cols="80" placeholder="How Can We Help You?"></textarea>
-            <input id="contact_submit" type="submit" name="contact_form_submit" value="Contact Us">
-          </div>
-        </form>
+
+        <?php
+
+          if (isset($_REQUEST['text-451']))
+            {
+              $admin_email = "bgardner@everconvert.com";
+              $client    = $_REQUEST['text-451'];
+              $email  = $_REQUEST['email-478'];
+              $phone  = $_REQUEST['tel-911'];
+              $textarea = $_REQUEST['textarea-421'];
+
+              mail($admin_email, "$email", "$phone", "From:" . $client, "$textarea");
+
+              echo "Thank you for contacting us!";
+            }
+
+          else {
+
+        ?>
+
+          <form class="contact_us_form" method="post">
+            <div class="contact_form_left">
+              <p><input type="text" name="text-451" placeholder="Name"></p>
+              <p><input type="email" name="email-478" placeholder="Email"></p>
+              <p><input type="text" name="tel-911" placeholder="Phone Number"></p>
+            </div>
+            <div class="contact_form_right">
+              <textarea name="textarea-421" rows="4" cols="80" placeholder="How Can We Help You?"></textarea>
+              <input id="contact_submit" type="submit" name="contact_form_submit" value="Contact Us">
+            </div>
+          </form>
+          <?php
+          }
+          ?>
+
+
       </div>
     </div>
   </div>

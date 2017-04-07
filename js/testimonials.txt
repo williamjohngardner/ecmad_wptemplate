@@ -1,0 +1,8 @@
+<ul>
+  <li><p>Experience was great.  First time using this law firm, everyone is very helpful and very professional.<br>
+      I really like it and recommend it to everyone.<br><strong>Jackie E.</strong></p></li>
+  <li><p>Choosing an attorney is as important as choosing a surgeon.<br>
+      When you hire an attorney you place a very important part of your life in their hands.</p>
+      <strong>Joseph Madalon.
+      <br>Founder of Madalon Law</strong></li>
+</ul>

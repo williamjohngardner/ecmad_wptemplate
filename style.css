@@ -338,6 +338,8 @@ nav ul {
 #section4_title {
   color: #a21c26;
   margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
 }
 
 .tabcontent1 {
@@ -393,7 +395,6 @@ nav ul {
   border-style: solid;
   border-width: 8px 0 8px 0;
   border-color: #a21c23;
-
   height: auto;
 }
 
@@ -401,6 +402,7 @@ nav ul {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .section_6 {
@@ -408,8 +410,7 @@ nav ul {
   background-repeat: no-repeat;
   background-position: top;
   height: 700px;
-}
-
+} 
 
 
 .blog_post {
